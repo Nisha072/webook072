@@ -1,0 +1,135 @@
+h1#tag{
+  margin-left:8%;
+  margin-top: 15%;
+  font-size: 50px;
+  opacity: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5#path{
+  margin-left: 8%;
+  color: yellow;
+}
+
+
+.img{
+  float:left;
+  overflow: hidden;
+  position: relative;
+ margin-top: 10%;
+ width: 25%;
+ height: 420px;
+ padding: 5%;
+}
+
+h2#page_name{
+  margin-top: 14%;
+  margin-left: 550px;
+  color: orange;
+  font-size: 45px;
+  position: relative;
+
+}
+p#under{
+  padding: 1%;
+  margin-left: 40.5%;
+  color:lightslategrey;
+  font-weight: 600;
+}
+p#cursive{
+  margin-left: 40.5%;
+  font-style: italic;
+  color: black;
+}
+p#business{
+  margin-top: 2%;
+  margin-left: 40.5%;
+  font-weight: 700;
+  color: orange;
+}
+p.des{
+  color: black;
+  margin-top: 1%;
+  margin-left: 40.5%;
+  margin-right: 8%;
+  text-align: justify;
+}
+
+div.mine{
+  float: left;
+}
+div.mine img{
+width: 10%;
+border-radius: 50%;
+position: absolute;
+overflow: hidden;
+padding: 5%;
+}
+hr.line{
+  margin-top: 10%;
+  color: black;
+}
+p.colon{
+ 
+  margin-left: 20%;
+  font-size: 100px;
+  color: orange;
+}
+
+div.mine p.comment{
+  margin-top: 10%;
+  margin-left: 20%;
+  color: orange;
+} 
+
+
+@media only screen and (max-width: 500px) {
+  h1#tag{
+    margin-left:15%;
+    margin-top: 62%;
+    font-size: 30px;
+    opacity: 2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h5#path{
+    margin-left: 15%;
+    color: yellow;
+  }
+
+  
+  .img{
+    overflow: hidden;
+    width:85%;
+    margin-top: 10%;
+  }
+
+  h2#page_name{
+    margin-left: 24px;
+    margin-top: 500px;
+  }
+
+  p#under{
+    padding: 1%;
+    margin-left: 18%;
+    color:lightslategrey;
+    font-weight: 600;
+  }
+  p#cursive{
+    margin-left: 15%;
+    font-style: italic;
+    color: black;
+  }
+  p#business{
+    margin-top: 2%;
+    margin-left: 18%;
+    font-weight: 700;
+    color: orange;
+  }
+  p.des{
+    color: black;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 8%;
+    text-align: justify;
+  }
+} 

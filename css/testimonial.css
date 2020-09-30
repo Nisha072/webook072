@@ -1,0 +1,110 @@
+h1#tag{
+  margin-left:8%;
+  margin-top: 15%;
+  font-size: 50px;
+  opacity: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5#path{
+  margin-left: 8%;
+  color: yellow;
+}
+
+h2#page_name{
+  margin-top: 12%;
+  margin-left: 8%;
+  color: orange;
+  font-size: 45px;
+ 
+}
+
+p#blog {
+  color: black;
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.blog_list .blog_item{
+  position: relative;
+  float:left;
+  width: calc(100% / 2);
+  overflow: hidden;
+  padding-top:3%;
+}
+
+.blog_list{
+  margin-left: 4%;
+}
+
+img{
+  height: 500px;
+  width: 600px;
+}
+
+div.review{
+  padding:3%;
+  color: orange;
+  text-align: center;
+}
+
+h3.title{
+  padding:3%;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.info{
+  color: dimgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:3%;
+}
+
+p.whole{
+  padding:3%;
+}
+
+button.read{
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: 15px;
+  border-radius: 1px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+img:hover {
+  
+  opacity: 0.7;
+  
+}
+
+button.read:hover{
+  background-color: rgb(84, 87, 84);
+}
+
+@media only screen and (max-width: 500px) {
+  h1#tag{
+    margin-left:15%;
+    margin-top: 62%;
+    font-size: 30px;
+    opacity: 2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h5#path{
+    margin-left: 15%;
+    color: yellow;
+  }
+
+  .blog_list .blog_item{
+      width: 100%;
+      float: none;
+      padding:0;
+  }
+  img{
+    width:100%;
+  }
+} 

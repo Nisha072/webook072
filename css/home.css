@@ -1,0 +1,133 @@
+
+
+h4#tag{
+  margin-left:45%;
+  margin-top: 15%;
+  font-size: 20px;
+  opacity: 2;
+}
+h2#booking-prompt{
+  margin-left: 30%;
+  margin-top: 2%;
+  font-size: 50px;
+  text-shadow: grey;
+  color:honeydew;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-table{
+  margin-top: 0px;
+  background-image: rgba(0,0,0,0.34);
+  background-color: rgba(0,0,0,0.34);
+    box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
+    padding-top: 35px;
+    padding-right: 32px;
+    padding-bottom: 70px;
+    padding-left: 32px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.book-table-item{
+  width: calc(100% / 6);
+    float: left;
+    padding-right: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+.input-append{
+  display: block;
+    text-align: center;
+    line-height: 28px;
+    padding: 0px 0px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .28px;
+    position: relative;
+    border:2px solid yellow;
+    background-color:transparent;
+    box-sizing: border-box;
+    background-color: white;
+}
+input{
+  outline-color: transparent;
+} 
+
+.btn {
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: 26px;
+}
+
+.btn:hover {
+  background-color: rgb(85, 85, 82);
+} 
+
+@media screen and (max-width:500px){
+
+  
+  h4#tag{
+    margin-left:30%;
+    margin-top: 60%;
+    font-size: 15px;
+    opacity: 2;
+  }
+
+  h2#booking-prompt{
+    margin-left: 20%;
+    font-size: 20px;
+    text-shadow: grey;
+    color:honeydew;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .book-table{
+    margin-top: 0px;
+    background-image: rgba(0,0,0,0.34);
+    background-color: rgba(0,0,0,0.34);
+      box-shadow: 0px 3px 57px 0px rgba(0, 0, 0, 0.18);
+      padding-top: 35px;
+      padding-right: 32px;
+      padding-bottom: 32px;
+      padding-left: 32px;
+      position: relative;
+      margin-left: 15px;
+      margin-right: 25px;
+  }
+  .book-table-item{
+    width: 100%;
+    float: none;
+    padding-right: 0;
+    margin-left: 0;
+    position: relative;
+  }
+  .input-append{
+    display: block;
+      text-align: center;
+      line-height: 28px;
+      padding: 0px 0px;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      letter-spacing: .28px;
+      position: relative;
+      border:2px solid yellow;
+      background-color:transparent;
+      box-sizing: border-box;
+      background-color: white;
+  }
+  input{
+    outline-color: transparent;
+}
+  .btn {
+    background-color: yellow;
+    border: 1px solid black;
+    font-size: 23.7px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(187, 187, 0);
+  } 
+}
