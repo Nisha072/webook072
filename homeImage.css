@@ -1,0 +1,9 @@
+/* Body Image */
+
+
+.container {
+  background-image: linear-gradient(rgba(46, 44, 44, 0.5),rgba(46,44,44,0.5)),url(../images/hotel.jpg) ;
+  height: 100vh;
+  background-size: cover;
+  width: 100vw;
+}

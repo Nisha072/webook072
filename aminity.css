@@ -1,0 +1,66 @@
+h1#tag{
+  margin-left:8%;
+  margin-top: 15%;
+  font-size: 50px;
+  opacity: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h5#path{
+  margin-left: 8%;
+  color: yellow;
+}
+
+h2#page_name{
+  margin-top: 10%;
+  margin-left: 8%;
+  color: orange;
+  font-size: 45px;
+ 
+}
+
+p{
+  color: black;
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.aminities_list .aminities_item {
+  margin-top: 5%;
+  width: calc(100% / 7.5);
+  float: left;
+  overflow: hidden;
+  background: #5c5a5a;
+  text-align: center;
+  padding: 60px 45px;
+}
+
+.aminities_item{
+  height: 360px;
+
+}
+
+div.aminities_item h4{
+  color: black;
+  margin: 10%;
+}
+
+div.aminities_item p{
+  color: aliceblue;
+}
+
+@media screen and (max-width:500px){ 
+  h1#tag{
+    margin-left:15%;
+    margin-top: 62%;
+    font-size: 30px;
+    opacity: 2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h5#path{
+    margin-left: 15%;
+    color: yellow;
+  }
+
+}

@@ -1,0 +1,8 @@
+.container {
+  background-image: linear-gradient(rgba(46, 44, 44, 0.5),rgba(46,44,44,0.5)),url(../images/aminityImage.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+  z-index: 2;
+
+}

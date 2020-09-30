@@ -1,0 +1,28 @@
+.all .imgall{
+  float:left;
+  width: calc(100% / 5.5);
+  overflow: hidden;
+  padding:3%;
+}
+.all:hover {
+  zoom: 1.2;
+  
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width:500px){
+
+  img{
+    width: 100%;
+  }
+  .all .imgall{
+    width: 100%;
+    float: none;
+    padding:0;
+}
+
+}
